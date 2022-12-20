@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #fdffe1;
+    font-family: sans-serif;
+  }
+  main {
+    background: linear-gradient(
+        rgba(110, 137, 255, 0.5),
+        rgba(110, 137, 255, 0.5)
+      ),
+      url(img/globe-2.jpg);
+    background-color: blue;
+    height: 18rem;
+    background-size: cover;
+    padding-top: 3rem;
+    color: white;
+  }
+  h1 {
+    margin-bottom: -1.2rem;
+    font-size: 3rem;
+    letter-spacing: 10px;
+  }
+  input {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    width: 20rem;
+    text-align: center;
+    margin: 1rem;
+  }
+  a {
+    background-color: #8362d6;
+    color: white;
+    padding: 0.5rem;
+    border: 0;
+    text-decoration: none;
+    color: white;
+    margin: 0.1rem;
+  }
+  .container {
+    width: 86%;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 6rem;
+    height: 3rem;
+    background-image: url("img/map_image.jpg");
+    background-size: cover;
+    list-style: none;
+    margin: 0.5rem;
+    padding: 3rem 1rem 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+  }
+  .active {
+    background-color: #392b5c;
+  }
